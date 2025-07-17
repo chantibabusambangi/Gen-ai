@@ -4,6 +4,7 @@ how the flow based on the query the tool calling works
 like query: recent hot topic on ai and what is machine leanrng?
 #obviously the llm can make tool recent hot topic on AI with tavily and what is machine leanrng? with wikipedia right.
 but how the tool calls were done!?
+it cannot do hardcode tools or call all tools and pick best answer.
 **LLM extracts intents from user query Decides which tools to call for which subquery Calls Taviley, Wikipedia, Gets structured/clean data back from tools Synthesizes final answer and returns to user**
 
 The LLM decides which tools to call based on:
