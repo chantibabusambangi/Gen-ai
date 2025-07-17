@@ -6,7 +6,7 @@ like query: recent hot topic on ai and what is machine leanrng?
 but how the tool calls were done!?
 it cannot do hardcode tools or call all tools and pick best answer.
 **LLM extracts intents from user query Decides which tools to call for which subquery Calls Taviley, Wikipedia, Gets structured/clean data back from tools Synthesizes final answer and returns to user**
-
+for this **tools_condition** was there to control the workflow  (via the orchestrator(system layer that connects llm and tools))
 The LLM decides which tools to call based on:
 The query content (intent detection).
 Available tool capabilities.
